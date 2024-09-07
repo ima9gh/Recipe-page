@@ -163,15 +163,18 @@ table .last{
     border: none;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
     body{
+        box-sizing: border-box;
         width: 100%;
         margin: 0;
     }
     
     .container{
+        box-sizing: border-box;
         width: 375px;
         height: 2112px;
+        padding: 30px;
     }
     
     .container img{
